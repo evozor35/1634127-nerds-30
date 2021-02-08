@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\normalize.css">
+    <link rel="stylesheet" href="css\style.css">
   </head>
-  <body>
-    <header>
-      <nav>
-        <a><img src="img\union.png" width="159" height="65" alt="NЁRDS logo"></a>
-        <ul>
+  <body class="page-body">
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo"><img src="img\union.png" width="159" height="65" alt="NЁRDS logo"></a>
+        <ul class="site-navigation">
           <li>
             <a href="blank.html">Студия</a>
           </li>
@@ -27,7 +31,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <h1>"Кто мы и чем занимаемся"</h1>
       <a href="blank.html">Узнать больше</a>
       <h2>Долго,дорого,скурпулезно.</h2>
@@ -51,22 +55,22 @@
           </li>
         </ul>
       </div>-->
-      <section> 
-        <h2>Оказываемые услуги</h2>
-          <ul>
-            <li>
+      <section class="features">
+        <h2>Приемущества</h2>
+          <ul class="features-list">
+            <li class="features-item">
               <h3>Веб-сайты</h3>
               <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
               <a href="blank.html">Заказать</a>
               <img src="img\illustration-1.jpg" width="300" height="146" alt="computer">
             </li>
-            <li>
+            <li class="features-item">
               <h3>Приложения</h3>
               <p>Покорите топ-10 приложений в AppStore и Google Play</p>
               <a href="blank.html">Заказать</a>
               <img src="img\illustration-2.jpg" width="300" height="146" alt="2 phones">
             </li>
-            <li>
+            <li class="features-item">
               <h3>Презентации</h3>
               <p>Вы даже не подозреваете, насколько вы изумительны!</p>
               <a href="blank.html">Заказать</a>
@@ -74,16 +78,16 @@
             </li>
           </ul>
       </section>
-      <section>
+      <section class="advantages">
         <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
         <h2>Выполняем заказы на разработку:</h2>
           <ul>
-            <li>Веб-сайтов любой сложности             
+            <li>Веб-сайтов любой сложности
             </li>
-            <li>Мобильных приложений для iOS и Android              
+            <li>Мобильных приложений для iOS и Android
             </li>
-            <li>Слайдшоу и видео для корпоративных презентаций              
+            <li>Слайдшоу и видео для корпоративных презентаций
             </li>
           </ul>
         <h2>С 2004 года любим точность во всем:</h2>
@@ -97,32 +101,32 @@
           </ul>
           <img src="img\nerds-illustration.jpg" width="360" height="208" alt="NЁRDS logo (party)">
       </section>
-      <section>
+      <section class="partenrs">
         <h2>Наши партнеры</h2>
-        <ul>       
-            <li><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img\group5.png" width="199" height="67" alt="logo Html Academy"></a>
+        <ul class="partners-list">
+            <li class="partners-item"><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img\group5.png" width="199" height="67" alt="logo Html Academy"></a>
             </li>
-            <li><a href="#"><img src="img\logo-2.svg" width="209" height="90" alt="logo barbershop Borodinski"></a>
+            <li class="partners-item"><a href="#"><img src="img\logo-2.svg" width="209" height="90" alt="logo barbershop Borodinski"></a>
             </li>
-            <li></li><a href="#"><img src="img\logo-3.png" width="185" height="52" alt="logo Pink"></a>
+            <li class="partners-item"></li><a href="#"><img src="img\logo-3.png" width="185" height="52" alt="logo Pink"></a>
             </li>
-            <li></li><a href="#"><img src="img\logo-4.png" width="173" height="84" alt="logo Mishka"></a>
+            <li class="partners-item"></li><a href="#"><img src="img\logo-4.png" width="173" height="84" alt="logo Mishka"></a>
             </li>
-        </ul>    
+        </ul>
       </section>
     </main>
-    <footer>
-      <section>
+    <footer class="main-footer">
+      <section class="footer-contacts">
           <h2>NЁRDS DESIGN STUDIO</h2>
             <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-            <p><a href="tel:+78122757575">тел. +7 (812) 275-75-75</a></p>
+            <p><a class="footer-phone" href="tel:+78122757575">тел. +7 (812) 275-75-75</a></p>
             <a href="blank.html">Напишите нам</a>
-            <img src="img\map.png" width="1440" height="416" alt="Map">           
+            <img src="img\map.png" width="1440" height="416" alt="Map">
       </section>
-      <section>
-        <a href="#"><img src="https://via.placeholder.com" width="81" height="81" alt="VK logo"></a> 
-        <a href="#"><img src="https://via.placeholder.com" width="81" height="81" alt="FB logo"></a> 
-        <a href="#"><img src="https://via.placeholder.com" width="81" height="81" alt="Inst logo"></a> 
+      <section class="footer-social">
+        <a class="social-button" href="#"><img src="https://via.placeholder.com" width="81" height="81" alt="VK logo"></a>
+        <a class="social-button" href="#"><img src="https://via.placeholder.com" width="81" height="81" alt="FB logo"></a>
+        <a class="social-button" href="#"><img src="https://via.placeholder.com" width="81" height="81" alt="Inst logo"></a>
         <h2>Давайте дружить, это выгодно!</h2>
         <p>Скидка 10% для друзей из социальных сетей.</p>
       </section>
