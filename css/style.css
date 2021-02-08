@@ -1,0 +1,62 @@
+/* Fonts*/
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(fonts\robotomedium.woff2) format("woff2"),
+  url(fonts\robotomedium.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(fonts\roboto.woff2) format("woff2"),
+  url(fonts\roboto.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto', sans-serif;
+  src: url(fonts\robotobold.woff2) format("woff2"),
+  url(fonts\robotobold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+/* Variables*/
+:root {
+  --basic-black: #000000;
+  --basic-text: #283136;
+  --basic-grey: #444444;
+  --basic-white: #FFFFFF;
+  --basic-red: #FB565A;
+  /*backgounds*/
+  --basic-backgound: #888888;
+  --header-background: #EEEEEE;
+
+  /*text*/
+  --basic-contacts: #666666;
+}
+body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--basic-text);
+  text-transform: uppercase;
+  background-color: var(--basic-backgound);
+  background-image: none;/*не вижу где взять и есть ли оно вообще?*/
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*Main Navigation*/
+main-navigation {
+  font-size: 16px;
+  height: 30px;
+  color: var(--basic-black);
+  background-color: var(--header-background);
+}
